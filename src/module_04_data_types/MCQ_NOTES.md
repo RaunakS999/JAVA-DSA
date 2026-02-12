@@ -1,4 +1,4 @@
-# Java Data Types & Floating-Point Logic
+# Module 4: Java Data Types & Floating-Point Logic
 
 ### 1. Data Type Memory Sizes
 Java allocates a specific number of bits for each primitive type:
@@ -37,3 +37,41 @@ Java requires a clear type for every variable. You cannot "mix and match" or lea
 | :--- | :--- | :--- |
 | `10` | `int` | `L` for long (`10L`) |
 | `10.5` | `double` | `f` for float (`10.5f`) |
+
+
+# NOTES
+### Literals in Java
+
+**Types of Literals:**
+* **Integer Literals:** `1`, `2`, `4`, `5`, `7`
+* **Floating:** `1.0`, `5.0`, `7.0`
+* **Boolean:** `true` / `false`
+* **String:** `"abc"`
+* **Character:** `'a'`
+
+
+
+---
+
+### Suffixes and Defaults
+* **Integer Default:** `int` is the default for whole numbers.
+  * To use `long` instead of `int`, you must use the suffix **`L`** after the number.
+* **Floating-Point Default:** `double` is the default for decimal numbers in Java.
+  * To use `float` instead of `double`, use the suffix **`F`** after the number.
+  * Use **`F`** suffix whenever using float, but it is not recommended for high-precision tasks.
+
+
+### Default Values of Primitive Data Types in Java
+
+In Java, instance variables are initialized with default values if they are not explicitly assigned.
+
+| Data Type | Default Value |
+| :--- | :--- |
+| **byte** | `0` |
+| **short** | `0` |
+| **int** | `0` |
+| **long** | `0L` |
+| **float** | `0.0f` |
+| **double** | `0.0d` |
+| **char** | `'\u0000'` (Null character) |
+| **boolean** | `false` |

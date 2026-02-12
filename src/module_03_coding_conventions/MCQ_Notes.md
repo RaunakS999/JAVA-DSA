@@ -1,4 +1,4 @@
-
+# Module 3: CODING CONVENTIONS
 ### 1. Variable Naming Rules
 In Java, identifiers (variables, methods, classes) follow strict naming conventions:
 * **Valid Start:** Must begin with a letter (A-Z or a-z), an underscore `_`, or a dollar sign `$`.
@@ -86,3 +86,14 @@ The behavior of the `+` operator depends on the data types:
 * **"sum = "** is a string.
 * **+ a** → Since one operand is a string, Java converts `a` to a string and concatenates it.
 * **+ b** → Now, `"sum = " + a` is already a string, so `b` is also converted to a string and concatenated instead of being added numerically.
+
+### Double Quotes in Strings
+Agar string mn double quotes print karna hai toh apan `\` use karke kar sakte hain like `\"` where `\` will not print.
+
+---
+
+### ** Brackets **
+* **()** Methods and functions are denoted - - - - - - - - - **Paranthesis** {Method = combination of camelCase and `()` }
+* **{}** Scope / Body —---- – - - **Curly**
+* **[]** - Array —----- - - - - - - **Square**
+* **<>** - Generics   - – - - - - **Angular Brackets**
