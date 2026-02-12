@@ -37,3 +37,40 @@ A **Variable** is a named storage location in the computer's memory (RAM).
 
 
 ---
+# NOTES
+
+### String Escaping
+To include a double quote `"` inside a string, use the escape character: `\"`
+
+### Type Operations & Concatenation
+The behavior of the `+` operator depends on the data types:
+
+* **int + int** = `int` (Mathematical addition)
+* **int + string** = `string` (Concatenation)
+* **string + string** = `string` (Concatenation)
+
+> **Concatenation:** The operation of joining multiple character strings.
+
+---
+
+### Naming Conventions
+
+#### Camel Case
+* **Usage:** Variables and Methods.
+* **Rule:** 1st letter lower case, subsequent words upper case (for readability).
+* **Example:** `int isUserAuth = 0;`
+
+#### Pascal Case
+* **Usage:** Classes.
+* **Rule:** 1st letter of every word is capital.
+* **Example:** `MyClass`
+
+#### Snake Case
+* **Usage:** Often used in Python or Database fields.
+* **Rule:** Using underscores `_` to differentiate letters/words.
+* **Example:** `user_auth_status`
+
+#### Kebab Case
+* **Usage:** Common in HTML and CSS.
+* **Rule:** Using a dash `-`.
+* **Example:** `user-auth-button`
