@@ -147,4 +147,10 @@ The assignment operator can be combined with other operators to build a shorter 
 > * `a = +5` (Assigns positive 5 to `a`)
 > * `a = -5` (Assigns negative 5 to `a`)
 >
->
+ 
+-
+> ### CLASS NOTE
+> if ch =a
+> 
+> ch+++ch = ch++ + ch (work as integer)
+> 

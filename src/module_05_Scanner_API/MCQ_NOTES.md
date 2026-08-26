@@ -63,6 +63,7 @@ If the user provides input that is incompatible with the requested type, Java tr
 
 
 ---
+### COMMON MISTAKE
 
 ### The `nextLine()` Problem & Buffer
 If we try to read a **String** after reading an **Integer, Double, or Float**, Java does not give us a chance to input anything for the string variable.
@@ -70,6 +71,8 @@ If we try to read a **String** after reading an **Integer, Double, or Float**, J
 **The Solution:**
 1. After taking an integer input, call `sc.nextLine()` to consume the newline character (`\n`) left in the input buffer.
 2. Then, prompt the user to enter the string using a second `nextLine()`.
+
+
 
 
 
