@@ -18,12 +18,12 @@
  */
 
 
-
 package module_09_Ternary_LOOP;
+
+import java.util.Scanner;
 
 public class Ternary_LOOP {
     public static void main(String[] args) {
-
 
 
         //  1. ternary
@@ -39,7 +39,8 @@ public class Ternary_LOOP {
 //
 //        int n = sc.nextInt();
 //        for (int i = 1; i <= n; i++) {
-//            System.out.println("hello world "+i);
+//            System.out.println("hello world " + i);
+//        }
 
 //   3.      Q.15 N natural numbers - 1 to N & N to 1
 
@@ -107,6 +108,8 @@ public class Ternary_LOOP {
 //        System.out.println(sum2);
 
 //  8. all prime factor  of a number
+
+
 //        Scanner sc = new Scanner(System.in);
 //        int n = sc.nextInt();
 //        for(int i=1;i<=n;i++){
@@ -178,7 +181,7 @@ public class Ternary_LOOP {
 //        }
 
 
-//   13 number of X divisor
+//   13 number of X divisor     ######################
 
 //        Scanner sc = new Scanner(System.in);
 //        int n = sc.nextInt();
@@ -196,6 +199,7 @@ public class Ternary_LOOP {
 //        }
 
 //   14. find prime factor
+
 //        Scanner sc = new Scanner(System.in);
 //        int a = sc.nextInt();
 //        while (a % 2 == 0) {
@@ -211,7 +215,7 @@ public class Ternary_LOOP {
 //        if (a > 2) {
 //            System.out.println(a);
 //        }
-        // 15. even-indexed Fibonacci numbers
+        // 15. even-indexed Fibonacci numbers  ################
 
 //        Scanner sc = new Scanner(System.in);
 //        int n = sc.nextInt();
@@ -227,7 +231,6 @@ public class Ternary_LOOP {
 //            second = next;
 //        }
 //        System.out.print(sum);
-
 
 
     }
