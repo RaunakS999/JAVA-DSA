@@ -164,3 +164,83 @@ Sample Input:
 Expected Output:
 
 false
+
+
+15. Repeat Hello
+Write a program that repeatedly prints "Hello" until the user provides
+incorrect input using a do-while loop.
+s h e r y i a n s c o d i n g s c h o o l
+Example 1:
+Flow: Hello
+
+Press 1 to repeat
+
+1
+
+Hello
+
+Press 1 to repeat
+
+0
+
+Program Exits 
+
+16.  Calculator
+     Write a program to create a choice-based calculator using a do-while
+     loop. The program should repeatedly prompt the user to choose an
+     operation and perform the corresponding calculation until the user
+     chooses to exit.
+     s h e r y i a n s c o d i n g s c h o o l
+     Example 1:
+     Flow: Choose an operation:
+
+Addition
+
+Subtraction
+
+Multiplication
+
+Division
+
+Exit
+
+Enter your choice: 1 (user input)
+
+
+Enter the first number: 10
+
+Enter the second number: 5
+
+
+Sum = 15 (output)
+
+
+17.  Guess the number
+     Write a program that generates a random number “target” in the range of
+     1-100 and asks the user to guess what the number is.
+
+If user's guess is equal to target, print “Congrats”.
+
+if user’s guess is higher than target, print "Too high, try again."
+
+else print "Too low, try again."
+
+The program should use a loop that repeats until the user correctly
+guesses the random number.
+
+Example 1:
+Flow: Guess the number
+
+23 (user input)
+
+Too low, try again
+
+67 (user input)
+
+Too high, try again
+
+40 (user input)
+
+Congrats.
+
+Program exits.

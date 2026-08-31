@@ -1,4 +1,4 @@
-# 1. CLASS THEORY - SWITCH
+# 1. CLASS THEORY - SWITCH _ DO WHILE
 
 ### Traditional Switch Statement
 
@@ -46,7 +46,7 @@ String dayname = switch (day) {
     case 1 -> "mon";
     case 2 -> {
         System.out.println("hello");
-        yield "Tue"; // 'yield' is used to return a value from a block
+        yield "Tue"; // 'yield' is used to return a value from a block (when multiple line are used to write code)
     }
     case 3 -> "wed";
     default -> "wrong"; // Default case is compulsory in switch expressions to cover all paths
@@ -116,3 +116,15 @@ while (false) { // Compile-time syntax error: Unreachable statement
 }
 
 ```
+# SWITCH
+        if ( day == 1)
+
+== operator is comparison
+day is variable
+1 is constant 
+
+this type pattern uses switch case ( one side variable and another side is constant)
+
+new JAVA 14+ version 
+use "->" arrow instead of ":" colon to remove "break"
+

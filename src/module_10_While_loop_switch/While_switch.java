@@ -16,9 +16,17 @@ CLASS 12
 12. Abundant Number
 13. Neon Number
 14. ISBN number ******************************
+
+SWITCH_DO WHILE
+
+15. hello repeat
+16. CALCULATOR
+17. GUESS THE NUMBER
  */
 
 package module_10_While_loop_switch;
+
+import java.util.Scanner;
 
 public class While_switch {
 
@@ -249,6 +257,71 @@ public class While_switch {
 //            sum += digit * (10 - i);           // weights: 10 down to 1
 //        }
 
+// 15. HELLO REPEAT
+//        Scanner sc=new Scanner(System.in);
+//        int ch;
+//        do{
+//            System.out.println("hello");
+//            System.out.println("press 1 for hello");
+//            ch=sc.nextInt();
+//        }while(ch==1);
+
+
+// 16. CALCULATOR
+
+
+//        Scanner sc = new Scanner(System.in);
+//        int ch;
+//        do {
+//            System.out.println("WELCOME to calc");
+//            System.out.println("press 1-add\npress 2-subtract\npress 3-multiply");
+//            ch = sc.nextInt();
+//            switch (ch) {
+//                case 1 -> {
+//                    System.out.println("enter 2 numbers");
+//                    int a = sc.nextInt(), b = sc.nextInt();
+//                    System.out.println("add" + (a + b));
+//                }
+//                case 2 -> {
+//                    System.out.println("enter 2 numbers");
+//                    int a = sc.nextInt(), b = sc.nextInt();
+//                    System.out.println("product" + a * b);
+//                }
+//                case 3 -> {   // to exit at this case so leave it blank
+//                }
+//
+//                default -> System.out.println("wrong input");
+//            }
+//            if (ch == 3)
+//                break;
+//        }
+//        while (true);
+
+
+//17. GUESS THE NUMBER
+
+//        Scanner sc = new Scanner(System.in);
+//        int guess = (int) (Math.random() * 100) + 1;
+//        int userGuess;
+//        int maxGuess = 10;
+//        do {
+//            userGuess = sc.nextInt();
+//            if (userGuess == guess) {
+//                System.out.println("bhadai ho");
+//                break;
+//            }
+//            if (--maxGuess == 0) {
+//                System.out.println("khel khatam");
+//                break;
+//            }
+//
+//            if (userGuess > guess) {
+//                System.out.println("chota socho");
+//            } else {
+//                System.out.println("bada socho");
+//
+//            }
+//        } while (true);
 
     }
 }
