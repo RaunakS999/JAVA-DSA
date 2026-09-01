@@ -480,3 +480,114 @@ Congrats.
 Program exits.
 
 ```
+
+18 . # Area Calculation using Switch Statement
+
+`Medium`
+
+---
+
+## Description
+
+Write a Java program that calculates the area of a circle, rectangle, or triangle based on user input using a switch statement. The program should ask the user to choose the shape and provide the required inputs accordingly.
+
+---
+
+## Examples
+
+### Example 1:
+
+**Sample Input:**
+
+```text
+circle
+7
+
+```
+
+**Expected Output:**
+
+```text
+153.93804002589985
+
+```
+
+---
+
+### Example 2:
+
+**Sample Input:**
+
+```text
+abc
+
+```
+
+**Expected Output:**
+
+```text
+Invalid shape"
+```
+**Constraints**
+. The inputs will be non-negative integers or floating-point numbers.
+
+. 0≤dimensions≤10^6
+
+· Handle cases where any dimension is zero (resulting in an area of zero).
+
+
+# 20 . Check Vowel or Consonant
+
+`Medium`
+
+---
+
+## Description
+
+Write a program that accepts an English alphabet from the user and determines if it is a vowel or a consonant. The program should use a switch statement for this task.
+
+---
+
+## Constraints
+
+* The input is a single English alphabet or a non-alphabet character.
+* The program should handle both uppercase and lowercase letters.
+* Non-alphabet characters should be correctly identified.
+
+---
+
+## Examples
+
+### Example 1:
+
+**Sample Input:**
+
+```text
+a
+
+```
+
+**Expected Output:**
+
+```text
+Vowel
+
+```
+
+---
+
+### Example 2:
+
+**Sample Input:**
+
+```text
+$
+
+```
+
+**Expected Output:**
+
+```text
+Not a letter
+
+```

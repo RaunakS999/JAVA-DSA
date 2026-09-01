@@ -22,10 +22,17 @@ SWITCH_DO WHILE
 15. hello repeat
 16. CALCULATOR
 17. GUESS THE NUMBER
+
+        SWITCH QUESTIONS
+
+18. Area Calculation using Switch Statement
+19. switch day // using method
+20. Check Vowel or Consonant
  */
 
 package module_10_While_loop_switch;
 
+import java.awt.geom.Area;
 import java.util.Scanner;
 
 public class While_switch {
@@ -287,7 +294,7 @@ public class While_switch {
 //                    int a = sc.nextInt(), b = sc.nextInt();
 //                    System.out.println("product" + a * b);
 //                }
-//                case 3 -> {   // to exit at this case so leave it blank
+//                case 3 -> {                    // to exit at this case so leave it blank
 //                }
 //
 //                default -> System.out.println("wrong input");
@@ -310,7 +317,7 @@ public class While_switch {
 //                System.out.println("bhadai ho");
 //                break;
 //            }
-//            if (--maxGuess == 0) {
+//            if (--maxGuess == 0) {                            //  approach
 //                System.out.println("khel khatam");
 //                break;
 //            }
@@ -322,6 +329,85 @@ public class While_switch {
 //
 //            }
 //        } while (true);
+
+//  18. Area Calculation using Switch Statement
+
+
+//        1st code with 4/7 test case passes
+
+
+        // {System.out.print("press 1-circle\n press 2-rectangle\n press 3-triangle");
+//        String shape = sc.next().toLowerCase();
+//        switch(shape){
+//
+//            case "circle"->{
+//                // System.out.print("enter radius");
+//                int r=sc.nextInt();
+//                System.out.print(Math.PI*r*r);
+//            }
+//            case "rectangle"->{
+//                // System.out.print("enter length and breadth");
+//                int l=sc.nextInt(), b=sc.nextInt();
+//                System.out.print(l*b);
+//            }
+//            case "triangle"->{
+//                // System.out.print("enter base and height");
+//                int b=sc.nextInt(), h=sc.nextInt();
+//                System.out.print(0.5*b*h);
+//            }
+//            default->System.out.print("Invalid shape");
+
+//        all test case passed
+//
+
+//        String shape = sc.next().toLowerCase();
+//        switch (shape) {
+//            case "circle" -> {
+//                double r = sc.nextDouble();
+//                System.out.println(Math.PI * r * r);
+//            }
+//            case "rectangle" -> {
+//                double l = sc.nextDouble();
+//                double b = sc.nextDouble();
+//                System.out.println(l * b);
+//            }
+//            case "triangle" -> {
+//                double b = sc.nextDouble();
+//                double h = sc.nextDouble();
+//                System.out.println(0.5 * b * h);
+//            }
+//            default -> System.out.println("Invalid shape");
+//        }
+//
+// 19.  switch day // using method
+
+//        switch (n) {
+//            case 1: return "Monday";
+//            case 2: return "Tuesday";
+//            case 3: return "Wednesday";
+//            case 4: return "Thursday";
+//            case 5: return "Friday";
+//            case 6: return "Saturday";
+//            case 7: return "Sunday";
+//            default: return "Invalid day";
+//        }
+
+// 20. Check Vowel or Consonant
+
+
+//        Scanner sc= new Scanner(System.in);
+//        char ch =sc.next().charAt(0);
+//        if(Character.isLetter(ch)){
+//            switch (ch){
+//                case 'a','A' ,'e','E','I', 'i','O', 'o','U', 'u'->System.out.print("Vowel");
+//
+//                default->System.out.print("Consonant");}
+//        }else{
+//            System.out.print("Not a letter");
+//        }
+//    }
+//}
+
 
     }
 }
